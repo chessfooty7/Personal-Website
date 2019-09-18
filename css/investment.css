@@ -1,0 +1,22 @@
+html, body {
+  	overflow:hidden;
+  	margin:0;
+	background-color:#000;
+	width: 100%;
+	height: 100%;
+}
+.instructions {
+	position:absolute;
+	z-index:1;
+	top:50%;
+	left:30%;
+	color:#fff;
+	letter-spacing:2px;
+	pointer-events:none;
+}
+
+canvas {
+	position:absolute; 
+	left:0px; 
+	top:0px;
+}

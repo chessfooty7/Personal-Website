@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Goals</title>
+	 <!-- main css -->
+  <link rel="stylesheet" type="text/css" href="file:///Users/spikysunster/Desktop/Udemy/My_World/css/goals.css">
+
+	<!-- weather display -->
+  <link rel="stylesheet" type="text/css" href="file:///Users/spikysunster/Desktop/Udemy/My_World/css/navbar.css">
+
+  <!-- mind map -->
+  <link rel="stylesheet" type="text/css" href="file:///Users/spikysunster/Desktop/Udemy/My_World/css/mindmap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="https://jeffbarclay.com/mindmap/raphael-min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
+</head>
+<body>
+
+ <div class="background">
+	<div class="bgshader"></div>
+</div>
+
+<!-- mindmap -->
+<ul>
+  <li><a href="index.html">Mind Map</a>
+    <ul>
+      <li><a href="index.html" size=50 color="red">Take initiative, don't be a whiner</a></li>
+      <li><a href="index.html" size=50 color="red">Don't compete, collaborate</a></li>
+      <li><a href="index.html" size=50 color="red">Positive perception</a></li>
+      <li><a href="index.html" size=50 color="green">Don't ask, suggest</a></li>
+      <li><a href="index.html" size=50 color="green">Focus on the system, not goals</a></li>
+      <li><a href="index.html" size=50 color="red">Pretend people are from Mars</a></li>
+    </ul>
+  </li>
+</ul>
+
+<!-- Nav Bar -->
+<div class="sticky" id="navbar">
+  <!-- Shader -->
+  <div class="trapezoid"></div>
+<!-- flex box -->
+<div class="flex-wrap">
+<!-- Weather API -->
+  <div class="container">
+    <div class="search">
+      <input type="text" placeholder="Enter City Name" id="search-txt">
+      <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+    </div>
+    <div id="city-name"></div>
+    <div id="temp"></div>
+    <img src="" alt="" id="icon">
+  </div>
+
+  <div class="links">
+    <div class="about spacing"><a href="file:///Users/spikysunster/Desktop/Udemy/My_World/index.html">Home</a></div>
+    <div class="goals spacing"><a href="goals.html">Goals</a></div>
+    <div class="health spacing"><a href="fitness.html">Fitness</a></div>
+    <div class="gallery spacing"><a href="file:///Users/spikysunster/Desktop/Udemy/My_World/gallery/index.html">Gallery</a></div>
+    <div class="investment spacing"><a href="investment.html">Investment</a></div>
+  </div>  
+</div>
+</div>
+
+<!-- scripts -->
+<!-- mindmap -->
+  <script src="file:///Users/spikysunster/Desktop/Udemy/My_World/js/mindmap.js"></script>
+  <!-- weather display -->
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script src="file:///Users/spikysunster/Desktop/Udemy/My_World/js/weather.js"></script>
+
+  <script src="file:///Users/spikysunster/Desktop/Udemy/My_World/js/navbar.js"></script>
+</body>
+</html>

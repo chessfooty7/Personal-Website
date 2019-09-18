@@ -1,0 +1,102 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css");
+.sticky{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+/*Shader*/
+.trapezoid{
+  position: absolute;
+  top:0;
+  right: 0;
+  border-bottom: 100vh solid white;
+  border-left: 6rem solid transparent;
+  width: 17rem;
+  opacity: 0.2;
+}
+
+/*Nav Bar*/
+.flex-wrap{
+  position: absolute;
+  top:0;
+  right: 0;
+  align-content: center;
+}
+a{
+  font-family: "Courier New";
+  font-size: 2rem;
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid rgba(80, 80, 80, 1);
+}
+.spacing{
+  margin-top: 3rem;
+  margin-right: 4rem;
+  border-bottom: 2px solid rgba(80, 80, 80, .5);
+  text-align: center;
+}
+/*Weather Display*/
+.container{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 1fr;
+  margin-top: 6vh;
+  margin-right: 2vw;
+}
+
+.search {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  transform: translate(20px, 0);
+  padding-bottom: 5px;
+}
+
+#search-btn {
+  color: white;
+}
+
+#search-txt {
+  color: gray;
+  height:30px;
+  border-radius: 10px;
+  border-style:none;
+  outline:none;
+/*  padding-right:1px;
+  padding-left:1px;
+*/  text-align:center;
+}
+
+#city-name {
+  grid-row-start: 2;
+  transform: translate(30px, 0);
+  font-family: "Courier New";
+  font-size: 2rem;
+  color: purple;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 2px solid rgba(80, 80, 80, .4);
+  border-top: 2px solid rgba(80, 80, 80, .4);
+}
+
+#temp{
+  font-family: "Courier New";
+  grid-row-start: 3;
+  transform: translate(30px, 0);
+  font-size: 1.5rem;
+  color: purple;
+}
+
+#icon {
+  grid-row-start: 3;
+  transform: translate(-35px, -19px);
+  width: 4rem;
+  height: 4rem;
+}

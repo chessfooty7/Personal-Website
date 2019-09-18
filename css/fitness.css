@@ -1,0 +1,10 @@
+body{
+  position: relative;
+  background-image: url("file:///Users/spikysunster/Desktop/Udemy/My_World/pics/pic13.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
